@@ -1,0 +1,68 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F5B1B8B
+P 950 1700
+F 0 "Conn?" H 1158 2087 60  0000 C CNN
+F 1 "AndersonPP" H 1158 1981 60  0000 C CNN
+F 2 "" H 800 1150 60  0001 C CNN
+F 3 "" H 800 1150 60  0001 C CNN
+	1    950  1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5F5B28D7
+P 950 1250
+F 0 "Conn?" H 1158 1637 60  0000 C CNN
+F 1 "AndersonPP" H 1158 1531 60  0000 C CNN
+F 2 "" H 800 700 60  0001 C CNN
+F 3 "" H 800 700 60  0001 C CNN
+	3    950  1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1600 1650 1600
+Wire Wire Line
+	1650 1600 1650 1800
+Wire Wire Line
+	1350 1150 1650 1150
+Wire Wire Line
+	1650 1150 1650 950 
+$Comp
+L power:VS #PWR?
+U 1 1 5F5B4146
+P 1650 950
+F 0 "#PWR?" H 1450 800 50  0001 C CNN
+F 1 "VS" H 1667 1123 50  0000 C CNN
+F 2 "" H 1650 950 50  0001 C CNN
+F 3 "" H 1650 950 50  0001 C CNN
+	1    1650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5B4459
+P 1650 1800
+F 0 "#PWR?" H 1650 1550 50  0001 C CNN
+F 1 "GND" H 1655 1627 50  0000 C CNN
+F 2 "" H 1650 1800 50  0001 C CNN
+F 3 "" H 1650 1800 50  0001 C CNN
+	1    1650 1800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

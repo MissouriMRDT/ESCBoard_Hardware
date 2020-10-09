@@ -1,4 +1,124 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:ESC_Hardware-cache
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4200 2125 2050 3775
+U 5F809124
+F0 "Microcontroller" 50
+F1 "ESCBoard_01.sch" 50
+F2 "USB_DM" B L 4200 3250 59 
+F3 "USB_DP" B L 4200 3400 59 
+F4 "Motor_Voltage_ADC" I L 4200 2375 59 
+F5 "CAN_RX" I L 4200 3975 59 
+F6 "CAN_TX" O L 4200 4100 59 
+F7 "INC_ENC_A" I L 4200 4675 59 
+F8 "INC_ENC_B" I L 4200 4825 59 
+F9 "INC_ENC_Z" I L 4200 4975 59 
+F10 "UART_RX" I L 4200 5325 59 
+F11 "UART_TX" O L 4200 5450 59 
+F12 "EN_GATE" O R 6250 2725 59 
+F13 "H1" O R 6250 2875 59 
+F14 "H2" O R 6250 3125 59 
+F15 "H3" O R 6250 3400 59 
+F16 "L1" O R 6250 3000 59 
+F17 "L2" O R 6250 3250 59 
+F18 "L3" O R 6250 3550 59 
+F19 "Sense_1" O R 6250 3800 59 
+F20 "Sense_2" O R 6250 3900 59 
+F21 "Sense_3" O R 6250 4000 59 
+F22 "Fault" O R 6250 4225 59 
+F23 "BR_SO1" O R 6250 4475 59 
+F24 "BR_SO2" O R 6250 4575 59 
+F25 "DC_CAL" O R 6250 4675 59 
+F26 "Servo" O R 6250 5150 59 
+F27 "IND_Software" O R 6250 5400 59 
+F28 "IND_Error" O R 6250 5500 59 
+F29 "Board_Temp_ADC" I L 4200 5725 59 
+$EndSheet
+Wire Notes Line
+	650  2150 650  625 
+Wire Notes Line
+	2150 2150 650  2150
+Wire Notes Line
+	2150 625  2150 2150
+Wire Notes Line
+	650  625  2150 625 
+Text Notes 1675 750  2    59   ~ 12
+Pack Voltage
+$Comp
+L power:GND #PWR?
+U 1 1 5F5B4459
+P 1525 1850
+F 0 "#PWR?" H 1525 1600 50  0001 C CNN
+F 1 "GND" H 1530 1677 50  0000 C CNN
+F 2 "" H 1525 1850 50  0001 C CNN
+F 3 "" H 1525 1850 50  0001 C CNN
+	1    1525 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VS #PWR?
+U 1 1 5F5B4146
+P 1525 1000
+F 0 "#PWR?" H 1325 850 50  0001 C CNN
+F 1 "VS" H 1542 1173 50  0000 C CNN
+F 2 "" H 1525 1000 50  0001 C CNN
+F 3 "" H 1525 1000 50  0001 C CNN
+	1    1525 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 1200 1525 1000
+Wire Wire Line
+	1225 1200 1525 1200
+Wire Wire Line
+	1525 1650 1525 1850
+Wire Wire Line
+	1225 1650 1525 1650
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5F5B28D7
+P 825 1300
+F 0 "Conn?" H 1033 1687 60  0000 C CNN
+F 1 "AndersonPP" H 1033 1581 60  0000 C CNN
+F 2 "" H 675 750 60  0001 C CNN
+F 3 "" H 675 750 60  0001 C CNN
+	3    825  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5F5B1B8B
+P 825 1750
+F 0 "Conn?" H 1033 2137 60  0000 C CNN
+F 1 "AndersonPP" H 1033 2031 60  0000 C CNN
+F 2 "" H 675 1200 60  0001 C CNN
+F 3 "" H 675 1200 60  0001 C CNN
+	1    825  1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L crf_1:MINI-USB-SCHIELD-32005-201 X?
+U 1 1 5F8156F3
+P 2150 3225
+F 0 "X?" H 2167 3740 50  0000 C CNN
+F 1 "MINI-USB-SCHIELD-32005-201" H 2167 3649 50  0000 C CNN
+F 2 "con-cypressindustries-32005-201" H 2150 3375 50  0001 C CNN
+F 3 "" H 2150 3225 60  0000 C CNN
+	1    2150 3225
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
