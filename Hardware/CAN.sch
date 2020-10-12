@@ -1,0 +1,165 @@
+EESchema Schematic File Version 4
+LIBS:ESC_Hardware-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_CAN_LIN:MCP2561-E-SN U?
+U 1 1 5F9FB61E
+P 5400 3950
+F 0 "U?" H 5025 4300 50  0000 C CNN
+F 1 "MCP2561-E-SN" H 5750 3600 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 3450 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf" H 5400 3950 50  0001 C CNN
+	1    5400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F9FBC46
+P 5400 3175
+F 0 "#PWR?" H 5400 3025 50  0001 C CNN
+F 1 "+3.3V" H 5415 3348 50  0000 C CNN
+F 2 "" H 5400 3175 50  0001 C CNN
+F 3 "" H 5400 3175 50  0001 C CNN
+	1    5400 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9FC007
+P 5400 4475
+F 0 "#PWR?" H 5400 4225 50  0001 C CNN
+F 1 "GND" H 5405 4302 50  0000 C CNN
+F 2 "" H 5400 4475 50  0001 C CNN
+F 3 "" H 5400 4475 50  0001 C CNN
+	1    5400 4475
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5900 3950
+Text HLabel 4700 3850 0    50   Output ~ 0
+CAN_RX
+Text HLabel 4700 3750 0    50   Output ~ 0
+CAN_TX
+Wire Wire Line
+	4700 3750 4900 3750
+Wire Wire Line
+	4900 3850 4700 3850
+Wire Wire Line
+	5400 4475 5400 4350
+$Comp
+L Device:C C?
+U 1 1 5F9FE16F
+P 5625 3350
+AR Path="/5F9FE16F" Ref="C?"  Part="1" 
+AR Path="/5F8DADAC/5F9FE16F" Ref="C?"  Part="1" 
+F 0 "C?" V 5475 3350 50  0000 C CNN
+F 1 "2.2uF" V 5750 3350 50  0000 C CNN
+F 2 "" H 5663 3200 50  0001 C CNN
+F 3 "~" H 5625 3350 50  0001 C CNN
+	1    5625 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5775 3350 5925 3350
+Wire Wire Line
+	5925 3350 5925 3425
+Wire Wire Line
+	5400 3550 5400 3350
+Wire Wire Line
+	5400 3350 5475 3350
+Wire Wire Line
+	5400 3350 5400 3175
+Connection ~ 5400 3350
+$Comp
+L Device:R R?
+U 1 1 5FA0054F
+P 4675 4150
+AR Path="/5FA0054F" Ref="R?"  Part="1" 
+AR Path="/5F8DADAC/5FA0054F" Ref="R?"  Part="1" 
+F 0 "R?" V 4575 4150 50  0000 C CNN
+F 1 "10k" V 4775 4150 50  0000 C CNN
+F 2 "" V 4605 4150 50  0001 C CNN
+F 3 "~" H 4675 4150 50  0001 C CNN
+	1    4675 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9FF1C2
+P 5925 3425
+F 0 "#PWR?" H 5925 3175 50  0001 C CNN
+F 1 "GND" H 5930 3252 50  0000 C CNN
+F 2 "" H 5925 3425 50  0001 C CNN
+F 3 "" H 5925 3425 50  0001 C CNN
+	1    5925 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4150 4400 4225
+$Comp
+L power:GND #PWR?
+U 1 1 5FA01143
+P 4400 4225
+F 0 "#PWR?" H 4400 3975 50  0001 C CNN
+F 1 "GND" H 4405 4052 50  0000 C CNN
+F 2 "" H 4400 4225 50  0001 C CNN
+F 3 "" H 4400 4225 50  0001 C CNN
+	1    4400 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 4150 4400 4150
+Wire Wire Line
+	4825 4150 4900 4150
+$Comp
+L Device:R R?
+U 1 1 5FA031D1
+P 6400 3950
+AR Path="/5FA031D1" Ref="R?"  Part="1" 
+AR Path="/5F8DADAC/5FA031D1" Ref="R?"  Part="1" 
+F 0 "R?" H 6300 3950 50  0000 C CNN
+F 1 "IN" V 6400 3950 50  0000 C CNN
+F 2 "" V 6330 3950 50  0001 C CNN
+F 3 "~" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6175 3850 6175 3725
+Wire Wire Line
+	6175 3725 6400 3725
+Wire Wire Line
+	6400 3725 6400 3800
+Wire Wire Line
+	5900 3850 6175 3850
+Wire Wire Line
+	5900 4050 6175 4050
+Wire Wire Line
+	6175 4050 6175 4175
+Wire Wire Line
+	6175 4175 6400 4175
+Wire Wire Line
+	6400 4175 6400 4100
+Wire Wire Line
+	6400 3725 6625 3725
+Connection ~ 6400 3725
+Wire Wire Line
+	6400 4175 6625 4175
+Connection ~ 6400 4175
+Text HLabel 6625 3725 2    50   Input ~ 0
+CANH
+Text HLabel 6625 4175 2    50   Input ~ 0
+CANL
+$EndSCHEMATC

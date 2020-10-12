@@ -1,0 +1,347 @@
+EESchema Schematic File Version 4
+LIBS:ESC_Hardware-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4275 3725 2    50   Output ~ 0
+Phase_1
+Text HLabel 6475 3725 2    50   Output ~ 0
+Phase_2
+Text HLabel 8650 3725 2    50   Output ~ 0
+Phase_3
+Text HLabel 3025 3450 0    50   Input ~ 0
+M_H1
+Text HLabel 3025 4125 0    50   Input ~ 0
+M_L1
+Text HLabel 5125 3475 0    50   Input ~ 0
+M_H2
+Text HLabel 5125 4125 0    50   Input ~ 0
+M_L2
+Text HLabel 7300 3475 0    50   Input ~ 0
+M_H3
+Text HLabel 7300 4125 0    50   Input ~ 0
+M_L3
+Text HLabel 3925 3875 0    50   Output ~ 0
+H1_VS
+Text HLabel 8300 3875 0    50   Output ~ 0
+H3_VS
+Text HLabel 4300 4975 2    50   UnSpc ~ 0
+H1_Low
+Text HLabel 6500 4975 2    50   UnSpc ~ 0
+H2_Low
+Text HLabel 8675 4975 2    50   UnSpc ~ 0
+H3_Low
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F9BA993
+P 4000 3450
+F 0 "Q?" H 4204 3496 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 4204 3405 50  0000 L CNN
+F 2 "" H 4200 3550 50  0001 C CNN
+F 3 "~" H 4000 3450 50  0001 C CNN
+	1    4000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F9BE831
+P 4000 4125
+F 0 "Q?" H 4204 4171 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 4204 4080 50  0000 L CNN
+F 2 "" H 4200 4225 50  0001 C CNN
+F 3 "~" H 4000 4125 50  0001 C CNN
+	1    4000 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3925 4100 3875
+Wire Wire Line
+	4100 3875 3925 3875
+Connection ~ 4100 3875
+Wire Wire Line
+	4100 3875 4100 3725
+Wire Wire Line
+	4100 3725 4275 3725
+Connection ~ 4100 3725
+Wire Wire Line
+	4100 3725 4100 3650
+$Comp
+L Device:R R?
+U 1 1 5F9C3A52
+P 3250 4125
+F 0 "R?" V 3150 4125 50  0000 C CNN
+F 1 "4.7" V 3350 4125 50  0000 C CNN
+F 2 "" V 3180 4125 50  0001 C CNN
+F 3 "~" H 3250 4125 50  0001 C CNN
+	1    3250 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9C5EAA
+P 3775 4475
+F 0 "R?" V 3675 4475 50  0000 C CNN
+F 1 "39k" V 3875 4475 50  0000 C CNN
+F 2 "" V 3705 4475 50  0001 C CNN
+F 3 "~" H 3775 4475 50  0001 C CNN
+	1    3775 4475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3625 4475 3550 4475
+Wire Wire Line
+	3550 4475 3550 4125
+Wire Wire Line
+	3550 4125 3800 4125
+Wire Wire Line
+	3550 4125 3400 4125
+Connection ~ 3550 4125
+Wire Wire Line
+	3025 4125 3100 4125
+Wire Wire Line
+	4100 4325 4100 4475
+Wire Wire Line
+	4100 4475 3925 4475
+Wire Wire Line
+	4100 4475 4100 4650
+Connection ~ 4100 4475
+$Comp
+L Device:R R?
+U 1 1 5F9C8E1F
+P 5025 4650
+F 0 "R?" V 4925 4650 50  0000 C CNN
+F 1 "39k" V 5125 4650 50  0000 C CNN
+F 2 "" V 4955 4650 50  0001 C CNN
+F 3 "~" H 5025 4650 50  0001 C CNN
+	1    5025 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4875 4650 4100 4650
+$Comp
+L Device:R R?
+U 1 1 5F9C9CC6
+P 3250 3450
+F 0 "R?" V 3150 3450 50  0000 C CNN
+F 1 "4.7" V 3350 3450 50  0000 C CNN
+F 2 "" V 3180 3450 50  0001 C CNN
+F 3 "~" H 3250 3450 50  0001 C CNN
+	1    3250 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3025 3450 3100 3450
+Wire Wire Line
+	3400 3450 3800 3450
+$Comp
+L Device:R R?
+U 1 1 5F9CC719
+P 5450 4125
+F 0 "R?" V 5350 4125 50  0000 C CNN
+F 1 "4.7" V 5550 4125 50  0000 C CNN
+F 2 "" V 5380 4125 50  0001 C CNN
+F 3 "~" H 5450 4125 50  0001 C CNN
+	1    5450 4125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5125 4125 5300 4125
+Wire Wire Line
+	5600 4125 5825 4125
+Wire Wire Line
+	5825 4125 5825 4650
+Wire Wire Line
+	5825 4650 5175 4650
+Connection ~ 5825 4125
+Wire Wire Line
+	5825 4125 6000 4125
+$Comp
+L Device:R R?
+U 1 1 5F9D31AB
+P 5450 3475
+F 0 "R?" V 5350 3475 50  0000 C CNN
+F 1 "4.7" V 5550 3475 50  0000 C CNN
+F 2 "" V 5380 3475 50  0001 C CNN
+F 3 "~" H 5450 3475 50  0001 C CNN
+	1    5450 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3475 6000 3475
+Wire Wire Line
+	5300 3475 5125 3475
+Wire Wire Line
+	6300 3675 6300 3725
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F9BCC6E
+P 6200 3475
+F 0 "Q?" H 6404 3521 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6404 3430 50  0000 L CNN
+F 2 "" H 6400 3575 50  0001 C CNN
+F 3 "~" H 6200 3475 50  0001 C CNN
+	1    6200 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3725 6475 3725
+Connection ~ 6300 3725
+Wire Wire Line
+	6300 3725 6300 3900
+Wire Wire Line
+	6300 3900 6125 3900
+Text HLabel 6125 3900 0    50   Output ~ 0
+H2_VS
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F9BF5CF
+P 6200 4125
+F 0 "Q?" H 6404 4171 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6404 4080 50  0000 L CNN
+F 2 "" H 6400 4225 50  0001 C CNN
+F 3 "~" H 6200 4125 50  0001 C CNN
+	1    6200 4125
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 3900
+Wire Wire Line
+	6300 3900 6300 3925
+Wire Wire Line
+	4300 4975 4100 4975
+Wire Wire Line
+	4100 4975 4100 4650
+Connection ~ 4100 4650
+Wire Wire Line
+	6500 4975 6300 4975
+Wire Wire Line
+	6300 4325 6300 4975
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F9C0340
+P 8375 4125
+F 0 "Q?" H 8579 4171 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 8579 4080 50  0000 L CNN
+F 2 "" H 8575 4225 50  0001 C CNN
+F 3 "~" H 8375 4125 50  0001 C CNN
+	1    8375 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 5F9BD907
+P 8375 3475
+F 0 "Q?" H 8579 3521 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 8579 3430 50  0000 L CNN
+F 2 "" H 8575 3575 50  0001 C CNN
+F 3 "~" H 8375 3475 50  0001 C CNN
+	1    8375 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9E65A6
+P 7625 3475
+F 0 "R?" V 7525 3475 50  0000 C CNN
+F 1 "4.7" V 7725 3475 50  0000 C CNN
+F 2 "" V 7555 3475 50  0001 C CNN
+F 3 "~" H 7625 3475 50  0001 C CNN
+	1    7625 3475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7775 3475 8175 3475
+Wire Wire Line
+	7475 3475 7300 3475
+Wire Wire Line
+	8675 4975 8475 4975
+Wire Wire Line
+	8475 4325 8475 4475
+$Comp
+L Device:R R?
+U 1 1 5F9ED44D
+P 7625 4125
+F 0 "R?" V 7525 4125 50  0000 C CNN
+F 1 "4.7" V 7725 4125 50  0000 C CNN
+F 2 "" V 7555 4125 50  0001 C CNN
+F 3 "~" H 7625 4125 50  0001 C CNN
+	1    7625 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9ED453
+P 8150 4475
+F 0 "R?" V 8050 4475 50  0000 C CNN
+F 1 "39k" V 8250 4475 50  0000 C CNN
+F 2 "" V 8080 4475 50  0001 C CNN
+F 3 "~" H 8150 4475 50  0001 C CNN
+	1    8150 4475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 4475 7925 4475
+Wire Wire Line
+	7925 4475 7925 4125
+Wire Wire Line
+	7925 4125 8175 4125
+Wire Wire Line
+	7925 4125 7775 4125
+Connection ~ 7925 4125
+Wire Wire Line
+	8475 3875 8300 3875
+Wire Wire Line
+	8475 3675 8475 3725
+Connection ~ 8475 3875
+Wire Wire Line
+	8475 3875 8475 3925
+Wire Wire Line
+	8650 3725 8475 3725
+Connection ~ 8475 3725
+Wire Wire Line
+	8475 3725 8475 3875
+Wire Wire Line
+	8300 4475 8475 4475
+Connection ~ 8475 4475
+Wire Wire Line
+	8475 4475 8475 4975
+Wire Wire Line
+	7300 4125 7475 4125
+Wire Wire Line
+	5175 2800 5175 2600
+$Comp
+L power:VS #PWR?
+U 1 1 5F9F68EC
+P 5175 2600
+F 0 "#PWR?" H 4975 2450 50  0001 C CNN
+F 1 "VS" H 5192 2773 50  0000 C CNN
+F 2 "" H 5175 2600 50  0001 C CNN
+F 3 "" H 5175 2600 50  0001 C CNN
+	1    5175 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2800 5175 2800
+Wire Wire Line
+	4100 2800 4100 3250
+Wire Wire Line
+	6300 2800 8475 2800
+Wire Wire Line
+	8475 2800 8475 3275
+Connection ~ 6300 2800
+Wire Wire Line
+	6300 3275 6300 2800
+Connection ~ 5175 2800
+Wire Wire Line
+	5175 2800 4100 2800
+$EndSCHEMATC
