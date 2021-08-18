@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name crf1)(type KiCad)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/crf1.pretty)(options "")(descr ""))
+  (lib (name w_conn_jst-ph)(type KiCad)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/w_conn_jst-ph.pretty)(options "")(descr ""))
+  (lib (name w_smd_cap)(type Legacy)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/w_smd_cap.mod)(options "")(descr ""))
+  (lib (name w_smd_diode)(type Legacy)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/w_smd_diode.mod)(options "")(descr ""))
+  (lib (name w_smd_inductors)(type Legacy)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/w_smd_inductors.mod)(options "")(descr ""))
+)
