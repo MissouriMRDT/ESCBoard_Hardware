@@ -1,4 +1,4 @@
-19777239265616747
+19782153981365137
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56567,7 +56567,28 @@ Anderson_2_Horizontal_Side_by_Side
 2
 2
 MRDT_Connectors
+Anderson_2_Horizontal_Side_by_Side_PV
+
+
+0
+2
+2
+MRDT_Connectors
 Anderson_2_Horizontal_Stacked
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_2_Horizontal_Stacked_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Anderson_2_Vertical_Side_by_Side_PV
 
 
 0
