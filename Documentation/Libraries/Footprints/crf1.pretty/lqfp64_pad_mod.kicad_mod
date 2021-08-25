@@ -1,4 +1,4 @@
-(module lqfp64_pad_mod (layer F.Cu) (tedit 512DF19F)
+(module lqfp64_pad_mod (layer F.Cu) (tedit 6125A5C8)
   (descr LQFP-64)
   (fp_text reference U2 (at 0 1.143) (layer F.SilkS)
     (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
@@ -80,6 +80,11 @@
   (pad 63 smd rect (at -5.75056 3.2512) (size 1.30048 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 64 smd rect (at -5.75056 3.74904) (size 1.30048 0.3) (layers F.Cu F.Paste F.Mask))
   (model walter/smd_lqfp/lqfp-64.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model D:/Github/ESCBoard_Hardware/Documentation/Libraries/3D/lqfp-64.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

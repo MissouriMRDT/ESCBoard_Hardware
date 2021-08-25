@@ -1,4 +1,4 @@
-(module Crystal_5x3mm (layer F.Cu) (tedit 61203585)
+(module Crystal_5x3mm (layer F.Cu) (tedit 6125A628)
   (fp_text reference X1 (at 0 0) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
@@ -13,4 +13,9 @@
   (pad 1 smd rect (at -1.89992 1.24968) (size 1.80086 1.19888) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.89992 1.24968) (size 1.80086 1.19888) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.89992 -1.24968) (size 1.80086 1.19888) (layers F.Cu F.Paste F.Mask))
+  (model D:/Github/ESCBoard_Hardware/Documentation/Libraries/3D/walter/crystal/crystal_smd_5x3.2mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -1,4 +1,4 @@
-(module USB-UX60R-MB-5ST (layer F.Cu) (tedit 559B7E2D)
+(module USB-UX60R-MB-5ST (layer F.Cu) (tedit 6125A6BF)
   (fp_text reference X1 (at 5.9 3.3 90) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
@@ -19,4 +19,9 @@
     (clearance 0.2))
   (pad "" np_thru_hole circle (at 2 0) (size 1 1) (drill 1) (layers *.Cu *.Mask F.SilkS)
     (clearance 0.2))
+  (model D:/Github/ESCBoard_Hardware/Documentation/Libraries/3D/UX60R-MB-5ST-STEP.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

@@ -4,4 +4,6 @@
   (lib (name w_smd_cap)(type Legacy)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/w_smd_cap.mod)(options "")(descr ""))
   (lib (name w_smd_diode)(type Legacy)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/w_smd_diode.mod)(options "")(descr ""))
   (lib (name w_smd_inductors)(type Legacy)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/Footprints/w_smd_inductors.mod)(options "")(descr ""))
+  (lib (name "Anthony's Silkscreens")(type KiCad)(uri "D:/Github/ESCBoard_Hardware/Documentation/Libraries/Package/Anthony's Silkscreens")(options "")(descr ""))
+  (lib (name 3D)(type KiCad)(uri D:/Github/ESCBoard_Hardware/Documentation/Libraries/3D)(options "")(descr ""))
 )
