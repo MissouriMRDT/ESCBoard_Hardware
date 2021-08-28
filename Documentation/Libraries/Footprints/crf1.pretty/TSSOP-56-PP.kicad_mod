@@ -1,4 +1,4 @@
-(module TSSOP-56-PP (layer F.Cu) (tedit 6125AB03)
+(module TSSOP-56-PP (layer F.Cu) (tedit 612A7E3E)
   (descr TSSOP-56-PP)
   (fp_text reference TSSOP-56-PP (at 0 1.27) (layer F.SilkS)
     (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
@@ -69,7 +69,7 @@
   (pad 56 smd rect (at -6.69544 -4.0005) (size 0.29972 1.50114) (layers F.Cu F.Paste F.Mask))
   (pad 57 smd rect (at 0 0) (size 7.00024 3.59918) (layers F.Cu F.Paste F.Mask))
   (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_ICs/DRV8302DCA.STEP"
-    (offset (xyz 0 0 0.635))
+    (offset (xyz 0.0635 0 0.635))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

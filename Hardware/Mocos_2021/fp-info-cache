@@ -1,4 +1,4 @@
-19785498827594488
+19795308600568205
 Anthony's Silkscreens
 W
 
@@ -56511,6 +56511,13 @@ Yellow 5381 Series LED
 2
 2
 MRDT_Actives
+ABM3B-8.000MHZ-10-1-U-T
+5 mm x 3.2 mm
+
+0
+4
+4
+MRDT_Actives
 IRFZ44ESTRLPBF
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
 D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
@@ -56650,6 +56657,13 @@ JTAG_ARM_Connector_10_Pin
 0
 10
 10
+MRDT_Connectors
+MOLEX_47346-0001
+
+
+0
+11
+6
 MRDT_Connectors
 MOLEX_SL_02_Horizontal
 
@@ -56902,6 +56916,13 @@ Solder Pad
 0
 1
 1
+MRDT_Connectors
+USB-UX60R-MB-5ST
+
+
+0
+9
+5
 MRDT_Devices
 ABS25
 
@@ -57036,6 +57057,13 @@ DRV8301
 57
 57
 MRDT_ICs
+DRV8302DCA
+TSSOP-56-PP
+
+0
+57
+57
+MRDT_ICs
 ESP8266_12E_SMD
 Module, ESP-8266, ESP-12, 16 pad, SMD
 Module ESP-8266 ESP8266
@@ -57099,6 +57127,13 @@ SOIC 1.27
 16
 16
 MRDT_ICs
+STM32F405RGT6
+LQFP-64
+
+0
+64
+64
+MRDT_ICs
 USEQGSEAN8L180
 
 
@@ -57126,6 +57161,13 @@ ETQ-P4M470YFN_Inductor
 0
 2
 2
+MRDT_Passives
+WSLP2726
+
+
+0
+4
+4
 MRDT_Sensors
 ACS759ECB_PFF_Leadform_5pins
 Allegro, Hallsensor, Through hole, Package CB-PFF,
